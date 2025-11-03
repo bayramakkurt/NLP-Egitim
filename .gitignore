@@ -1,0 +1,65 @@
+# -----------------------------
+# Python Temel
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Sanal Ortamlar
+.env
+.venv
+venv/
+env/
+ENV/
+*.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Log Dosyaları
+*.log
+
+# Geçici Dosyalar
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE Dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Çıktı / Derleme Klasörleri
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Model ve NLP Dosyaları
+models/
+checkpoints/
+tokenizers/
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.pb
+*.onnx
+*.pkl
+*.joblib
+
+# Dataset ve Büyük Dosyalar
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.gz
+*.tar
+*.parquet
